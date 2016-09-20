@@ -1,1 +1,2 @@
 # demobot
+Demo project
