@@ -16,7 +16,7 @@ const connector = new builder.ChatConnector({
 });
 
 const bot = new builder.UniversalBot(connector);
-server.post('/api/messages', connector.listen());
+server.post('/API/Messages', connector.listen());
 
 // Create bot dialogs
 bot.dialog('/', function (session) {
