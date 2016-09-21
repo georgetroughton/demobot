@@ -23,7 +23,7 @@ const connector = new builder.ChatConnector({
 const bot = new builder.UniversalBot(connector);
 
 // Bot chat messages
-server.post('/API/Messages', connector.listen());
+server.post('/api/messages', connector.listen());
 
 // Web chat UI request
 server.get('/', restify.serveStatic({
